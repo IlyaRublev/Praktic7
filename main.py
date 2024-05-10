@@ -1,0 +1,13 @@
+print("Задани 1")
+q = input()
+w = q.split(".")
+print(*w)
+
+print("Задание 2")
+q = input("Введите строку:")
+w = input("Символ:")
+e = q.count(w)
+r = q.upper()
+t = ''.join([w if w == y else y for y in r])
+print("Строка:", t)
+print("Количество символов в строке:", e)
